@@ -17,7 +17,7 @@ def number_of_subscribers(subreddit):
     }
 
     response = requests.get(
-        base_url, 
+        base_url,
         headers=headers,
         allow_redirects=False
     )
