@@ -7,7 +7,8 @@ import re
 import requests
 
 
-def count_words(subreddit, word_list, after=None, counts=None, first_call=True):
+def count_words(subreddit, word_list, after=None,
+                counts=None, first_call=True):
     """Recursively count keyword occurrences in hot post titles.
 
     Args:
