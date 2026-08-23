@@ -11,7 +11,7 @@ def top_ten(subreddit):
     """Print the titles of first 10 hot posts."""
     base_url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
     headers = {
-        "User-Agent": "alche-api-advanced/1.0"
+        "User-Agent": "linux:alche-api-advanced:v1.0 (by /u/shania178)"
     }
 
     response = requests.get(
